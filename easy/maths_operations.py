@@ -1,23 +1,52 @@
 """
 Program to perform basic mathematics operations like add, subtract, multiply , divide
 """
-def calculate():
-    num1 = int(input("Enter 1st number:"))
-    num2 = int(input("Enter 2nd number:"))
-    choice = int(input("Select operation:\n1.Add \n2.Subtract \n3.Multiply\n4.Divide\n"))
-    result = 0
+class Calculator:
+    def add(self, a, b):
+        return a+b
 
-    if choice == 1:
-        result= num1 + num2
-    elif choice == 2:
-        result = num1 - num2
-    elif choice ==3:
-        result = num1* num2
-    elif choice ==4:
-        result = num1/num2
-    else:
-        print("Select a valid number respective to operation")
+    def subtract(self, a, b):
+        return a - b
 
-    return  result
+    def multiply(self, a, b):
+        return a*b
 
-print("Result is :"+str(calculate()))
+    def divide(self, a, b):
+        if b == 0:
+            return "Cannot divide by zero"
+        return a / b
+
+def main():
+    calc = Calculator()
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+
+    print("\nPerforming basic mathematics operations:")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+
+    choice = input("\nEnter your choice - 1/2/3/4 - ")
+
+    # Switch case
+    match choice:
+        case "1":
+            result = calc.add(num1, num2)
+            print(f'Result\n:  {num1} + {num2} = {result}')
+        case "2":
+            result = calc.subtract(num1, num2)
+            print(f'Result\n:  {num1} - {num2} = {result}')
+        case "3":
+            result = calc.multiply(num1, num2)
+            print(f'Result\n:  {num1} * {num2} = {result}')
+        case "4":
+            result = calc.divide(num1, num2)
+            print(f'Result\n:  {num1} / {num2} = {result}')
+        case _: print("Please ensure choices are only from 1,2,3, or 4")
+
+
+if __name__ == "__main__":
+    main()
+
+
