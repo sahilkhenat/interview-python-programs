@@ -27,7 +27,7 @@ def main():
     print("3. Multiplication")
     print("4. Division")
 
-    choice = input("\nEnter your choice - 1/2/3/4 - ")
+    choice = input("\nEnter your choice from following - 1/2/3/4 - ")
 
     # Switch case
     match choice:
