@@ -43,7 +43,7 @@ def main():
         case "4":
             result = calc.divide(num1, num2)
             print(f'Result\n:  {num1} / {num2} = {result}')
-        case _: print("Please ensure choices are only from 1,2,3, or 4")
+        case _: print("Please ensure choices are only from 1,2,3, or 4.")
 
 
 if __name__ == "__main__":
