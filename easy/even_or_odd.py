@@ -1,4 +1,4 @@
-"""Write a program to check if given number is prime or not,"""
+"""Write a program to check if given number is even or odd"""
 
 
 def check_even_or_odd(number):
