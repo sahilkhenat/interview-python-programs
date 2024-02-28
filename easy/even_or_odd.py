@@ -1,5 +1,4 @@
 """Write a program to check if given number is prime or not,"""
-import math
 
 
 def check_even_or_odd(number):
