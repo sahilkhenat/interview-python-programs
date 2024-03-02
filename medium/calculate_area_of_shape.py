@@ -47,7 +47,7 @@ def get_dimensions(shape):
         return [side]
     elif shape == "rectangle":
         length = float(input(f"Enter length for {shape}:"))
-        breadth = float(input(f"Enter breadth for {shape}"))
+        breadth = float(input(f"Enter breadth for {shape}:"))
         return length, breadth
     elif shape == "triangle":
         base = float(input(f"Enter base of {shape}:"))
@@ -55,7 +55,7 @@ def get_dimensions(shape):
         return base, height
     elif shape == "cuboid":
         length = float(input(f"Enter length for {shape}:"))
-        breadth = float(input(f"Enter breadth for {shape}"))
+        breadth = float(input(f"Enter breadth for {shape}:"))
         height = float(input(f"Enter height of {shape}:"))
         return length, breadth, height
     else:
