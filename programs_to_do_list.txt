@@ -5,7 +5,6 @@ Palindrome Check: Check if a given string is a palindrome.
 Reverse a String: Reverse the characters in a string.
 Prime Number Check: Determine if a given number is prime.
 Count Vowels and Consonants: Count the number of vowels and consonants in a string.
-Find Maximum: Find the maximum element in an array.
 Remove Duplicates: Remove duplicates from an array.
 Calculate Average: Calculate the average of elements in an array.
 Swap Two Numbers: Swap the values of two variables without using a temporary variable.
@@ -19,6 +18,7 @@ Convert Celsius to Fahrenheit: Convert Celsius temperature to Fahrenheit.
 
 Medium
 Anagram Check: Check if two strings are anagrams of each other.
+Find Maximum and Minimum: Find the maximum and minimum element in an array.
 Sum of Digits: Calculate the sum of digits of a positive integer.
 Factorial Calculation: Calculate the factorial of a non-negative integer.
 Fibonacci Sequence: Generate the Fibonacci sequence up to a given number.

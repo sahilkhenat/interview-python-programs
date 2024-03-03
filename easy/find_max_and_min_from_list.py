@@ -1,5 +1,5 @@
 """
-Find Maximum and Minimum: Find the maximum and minimum element in an array.
+Maximum and Minimum: Find the maximum and minimum element in an array.
 """
 
 
