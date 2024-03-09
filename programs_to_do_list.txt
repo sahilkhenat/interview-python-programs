@@ -13,10 +13,10 @@ Check Odd or Even: Check if a given number is odd or even.
 Check Positive or Negative: Check if a given number is positive, negative, or zero.
 Find Area of Rectangle: Calculate the area of a rectangle given length and width.
 Find Area of Circle: Calculate the area of a circle given radius.
-Convert Kilometers to Miles: Convert kilometers to miles.
-Convert Celsius to Fahrenheit: Convert Celsius temperature to Fahrenheit.
+
 
 Medium
+Unit Converter:Convert Kilometers to Miles and vice versa: Convert Celsius temperature to Fahrenheit versa.
 Anagram Check: Check if two strings are anagrams of each other.
 Find Maximum and Minimum: Find the maximum and minimum element in an array.
 Sum of Digits: Calculate the sum of digits of a positive integer.
