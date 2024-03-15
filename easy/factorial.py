@@ -1,6 +1,7 @@
 """
 Program to calculate factorial of given number.
 """
+from utils import input_util
 
 
 def factorial(n):
@@ -11,8 +12,8 @@ def factorial(n):
 
 
 def main():
-    number = input("Enter a number for which you want to find factorial:")
-    print(factorial(number))
+    number = input_util.get_positive_integer_from_input("number")
+    print(f"{number}! is equal to {factorial(number)}")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 """Write a program to remove Duplicates: Remove duplicates from a list."""
-
+from utils import input_util
 
 def remove_duplicates_using_set(input_list):
     updated_list = list(set(input_list))
@@ -15,9 +15,7 @@ def remove_duplicates_using_loop(input_list):
 
 
 def main():
-    input_1 = input("Enter list of numbers separated by spaces:")
-    input_list = input_1.split(sep=' ')
-    print('Input list :', input_list)
+    input_list = input_util.get_list_of_integers_from_input()
     updated_list_using_set = remove_duplicates_using_set(input_list)
     updated_list_using_loop = remove_duplicates_using_loop(input_list)
     print(updated_list_using_loop.sort() == updated_list_using_set.sort())
