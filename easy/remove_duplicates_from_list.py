@@ -1,6 +1,7 @@
 """Write a program to remove Duplicates: Remove duplicates from a list."""
 from utils import input_util
 
+
 def remove_duplicates_using_set(input_list):
     updated_list = list(set(input_list))
     return updated_list
@@ -23,5 +24,5 @@ def main():
     print('Updated list using loop:', updated_list_using_loop)
 
 
-if __name__ =="__main__":
+if __name__ == "__main__":
     main()
