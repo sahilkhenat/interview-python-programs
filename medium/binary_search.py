@@ -50,7 +50,7 @@ def main():
     if index != -1:
         print(f"Target {target} found at index {index} in list {sorted_array}")
     else:
-        print(f"Target {target} not found in the list {sorted_array}")
+        print(f"Target {target} not found in list {sorted_array}")
 
 
 if __name__ == "__main__":
