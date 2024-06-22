@@ -36,6 +36,9 @@ This repository contains a collection of Python programs commonly used in techni
 - Prime number : This program takes input as  a number and returns if it is a prime number or not
 - Sum of Digits : This program takes input as a number and returns the sum of its digits
 - Unit converter : This program converts distance and temperature. Distance-KM to Miles, Miles to KM, Temperature - Celsius to Fahrenheit, Fahrenheit to Celsius
+- Linear search: This program takes input as a list of numbers, a target number to perform linear search and then returns indices at which the target is present in list 
+- Binary search : This program takes input as a list of numbers, a target number to perform binary search on a sorted array to find the target value.
+
 ## Tough
 
 
