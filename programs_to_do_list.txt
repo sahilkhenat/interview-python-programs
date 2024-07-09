@@ -1,4 +1,5 @@
-Easy
+Easy - Done
+-------
 Hello World : Print 'Hello World'
 Maths Operations : Perform basic maths operations like add, subtract, multiply, divide
 Palindrome Check: Check if a given string is a palindrome.
@@ -17,30 +18,42 @@ Factorial Calculation: Calculate the factorial of a non-negative integer.
 Fibonacci Sequence: Generate the Fibonacci sequence up to a given number.
 Find Maximum and Minimum: Find the maximum and minimum element in an array.
 
-Medium
+Medium - Done
+-------
+-------
 Unit Converter:Convert Kilometers to Miles and vice versa: Convert Celsius temperature to Fahrenheit versa.
 Anagram Check: Check if two strings are anagrams of each other.
+Check Palindrome Number: Check if a given number is a palindrome.
 Sum of Digits: Calculate the sum of digits of a positive integer.
 Find Factorial of Each Number in a List: Calculate the factorial of each number in a list.
 Find Roots of Quadratic Equation: Find the roots of a quadratic equation given coefficients.
+Find Duplicate Number: Find the duplicate number in an array of integers from 1 to n.
 Find Maximum of Two Numbers: Find the maximum of two numbers without using comparison operators.
 Find Minimum of Two Numbers: Find the minimum of two numbers without using comparison operators.
-Binary to Decimal Conversion: Convert a binary number to its decimal equivalent.
-Decimal to Binary Conversion: Convert a decimal number to its binary equivalent.
+Check Armstrong Number: Check if a given number is an Armstrong number.
 Linear Search: Find the index of a target element in an array using linear search.
 Binary Search: Find the index of a target element in a sorted array using binary search.
+Check Perfect Number: Check if a given number is a perfect number.
+
+Medium - To Do
+------------
+Binary to Decimal Conversion: Convert a binary number to its decimal equivalent.
+Decimal to Binary Conversion: Convert a decimal number to its binary equivalent.
 Bubble Sort: Sort an array of integers using bubble sort algorithm.
 Check Balanced Parentheses: Check if a given expression has balanced parentheses.
 Calculate Power : Calculate power of a number using recursion
 Calculate GCD and LCM: Calculate the greatest common divisor and least common multiple of two integers.
-Check Armstrong Number: Check if a given number is an Armstrong number.
-Check Perfect Number: Check if a given number is a perfect number.
-Check Palindrome Number: Check if a given number is a palindrome.
 Count Words in a Sentence: Count the number of words in a sentence.
 Find Missing Number: Find the missing number in an array of integers from 1 to n.
-Find Duplicate Number: Find the duplicate number in an array of integers from 1 to n.
+Find pairs of integers in a list that sum up to a target
+Rotate a list to the right by given number of steps
+Merge two sorted lists in a single sorted list - using two pointer technique
+Move zeroes in a list to end of the list - two pointer technique
+Pangram Check : check if given string contains every letter of the alphabets[A to Z] at-least once.
 
-Tough
+
+Tough - To Do
+--------------
 Quick Sort: Sort an array of integers using quick sort algorithm.
 Find Kth Smallest Element: Find the kth the smallest element in an unsorted array.
 Find Kth Largest Element: Find the kth the largest element in an unsorted array.
